@@ -1,5 +1,6 @@
 %{
 #include "y.tab.h"
+void yyerrror(char *);
 %}
 %%
 "print"				   {return print;}
